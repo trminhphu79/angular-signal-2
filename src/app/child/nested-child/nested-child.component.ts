@@ -10,6 +10,6 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 export class NestedChildComponent {
   watcher() {
     console.log('NestedChildComponent watcher');
-    return 1;
+    return undefined;
   }
 }

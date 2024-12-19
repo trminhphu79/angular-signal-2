@@ -14,9 +14,6 @@ export class AppComponent {
   title = 'fastweb';
 
   watcher() {
-    // em dùng để log ra vì mỗi khi CD nó detect view nó cần re-call
-    // lại cái function này đẻ check cần update chổ template binding k
-    //hiện tại a click vào button ở comp con nó cũng sẽ
     console.log('AppComponent watcher trigger');
     return undefined;
   }
